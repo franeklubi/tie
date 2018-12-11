@@ -44,11 +44,11 @@ and You should be all set! :)
 
 ## Features
 
-Main features include:
-* it is beginner friendly,
-* has Processing-like API - no need to learn a new framework,
-* includes easy image handling
-* ...
+Main features:
+* it's beginner friendly,
+* has Processing-like API - no need to learn a new framework from the ground up,
+* provides easy image manipulation,
+* it's fun :D
 
 ## Example
 
