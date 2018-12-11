@@ -112,6 +112,7 @@ func (img *Image) GetPixels(x, y, w, h int) (Image) {
     return Image{pixels, w, h}
 }
 
+// Save saves an image to a file in a png format
 func (img *Image) Save(path string) {
 
     // checking for image corruption
