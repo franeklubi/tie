@@ -1,5 +1,7 @@
 # franeklubi/tie
 
+[![GoDoc](https://godoc.org/github.com/franeklubi/tie?status.svg)](https://godoc.org/github.com/franeklubi/tie)
+
 ![logo](assets/tie_logo_64.png)
 
 Package `franeklubi/tie` provides a Processing-like API for simple and fun drawing,
