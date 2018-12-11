@@ -79,6 +79,8 @@ func Launch() {
 
     MoveBackFor2D()
 
+    LOG("Launch successful!")
+
     // calling the setup function
     setup()
 
@@ -90,8 +92,6 @@ func Launch() {
 
 // MAIN DRAWING LOOP
 func drawingLoop() {
-
-    LOG("Launch successful")
 
     for ( !window.ShouldClose() ) {
 

@@ -167,7 +167,7 @@ func Point(x, y float64) {
     EndShape()
 }
 
-// Cube draws a cuboid
+// Cube draws a cube
 func Cube(size float64) {
 
     updateColor(fill)
@@ -267,11 +267,11 @@ func Text(txt string, size int, center_align bool) {
             Println("String contains unsupported characters!")
 
             // printing err char
-            PastePixels(letters[95], float64(x*size), 0, float64(size), float64(size)*2.11)
+            letters[95].PastePixels(float64(x*size), 0, float64(size), float64(size)*2.11)
         } else {
 
             // printing char
-            PastePixels(letters[txt[x]-32], float64(x*size), 0, float64(size), float64(size)*2)
+            letters[txt[x]-32].PastePixels(float64(x*size), 0, float64(size), float64(size)*2)
         }
 
         if ( center_align ) {
